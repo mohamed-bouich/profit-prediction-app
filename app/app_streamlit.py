@@ -112,7 +112,7 @@ with st.expander("📂 Étape 1 — Chargement du jeu de données",
                  expanded=not st.session_state["etape_chargement"]):
 
     fichier_importe = st.file_uploader(
-        "Importer votre fichier CSV (profitentr.csv)", type=["csv"]
+        "Importer votre fichier CSV ", type=["csv"]
     )
     if fichier_importe is not None:
         df = charger_donnees(fichier_importe)
@@ -200,7 +200,7 @@ else:
         }
         descriptions_encodage = {
             "One-Hot Encoding":              "Crée une colonne binaire par catégorie.",
-            "Binary Encoding":               "Encode en colonnes binaires compactes (log2 colonnes).",
+            "Binary Encoding":               "Encode en colonnes binaires compactes .",
             "Label Encoding (commence à 1)": "Remplace chaque catégorie par un entier à partir de 1.",
         }
         choix_encodage = st.selectbox(
