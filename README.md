@@ -76,7 +76,7 @@ streamlit run app_streamlit.py
 
 ## Application en ligne
 
-👉 [profit-prediction-app.streamlit.app](https://profit-prediction-app.streamlit.app)
+👉 https://mohamed-bouich-profit-prediction-app-appapp-streamlit-yuyuax.streamlit.app/
 
 ---
 
